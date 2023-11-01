@@ -1,27 +1,24 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 2px;
+    margin: 2px;
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d8d8d8;
 }
 
 header {
-    padding: 20px;
+    padding: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #0076b1;
+    color: #cdcdcd;
+    border-radius: 5px;
 }
 
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-header h1 .seo {
-    color: #d9dcd6;
 }
 
 header nav {
@@ -40,3 +37,52 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+h4 {
+    display: flex;
+    flex: wrap;
+    font-size: 22px;
+    text-align: right;
+  }
+  
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #0076b1;
+    border-radius: 5px;
+  }
+  
+label {
+    display: inline-block;
+    width: 60px;
+  }
+  
+input,
+textarea {
+    box-sizing:border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+  }
+  
+textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+  
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #fffbf5;
+  }
+  
+ 

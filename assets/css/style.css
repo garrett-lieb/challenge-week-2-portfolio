@@ -4,6 +4,10 @@
     margin: 2px;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+  }
+
 body {
     background-color: #d8d8d8;
 }
@@ -62,7 +66,7 @@ form {
     border-radius: 5px;
     
   }
-  
+
   section form ul li {
     list-style-type: none;
   }
@@ -92,4 +96,10 @@ button {
     color: #fffbf5;
   }
   
- 
+ .text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}

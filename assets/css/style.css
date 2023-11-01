@@ -4,9 +4,17 @@
     margin: 2px;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-  }
+a:link {
+  color: #cdcdcd;
+}
+
+a:visited {
+  color: #cdcdcd;
+}
+
+a:hover {
+  color: #4F4846;
+}
 
 body {
     background-color: #d8d8d8;

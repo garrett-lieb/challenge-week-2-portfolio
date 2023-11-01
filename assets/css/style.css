@@ -42,6 +42,7 @@ header nav {
 }
 
 header nav ul {
+  text-decoration: none;
     list-style-type: none;
 }
 

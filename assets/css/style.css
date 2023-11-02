@@ -75,7 +75,7 @@ header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
@@ -116,7 +116,7 @@ textarea {
   float: left;
   width: 45%;
   height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   color: rgb(0, 0, 0);
   background-color: #ffebcd;
   border: 7px double #0070a8;
@@ -146,7 +146,7 @@ textarea {
   float: right;
   width: 50%;
   height: 50%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   color: rgb(0, 0, 0);
   background-color: #ffebcd;
   border: 7px double #0070a8;;

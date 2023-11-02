@@ -137,9 +137,9 @@ textarea {
   
 .Bio {
   display: flex;
-  align-items: center;
+  align-items: row;
   margin-right: 5px;
-  padding: 10px;    
+  padding: 10px;
   float: right;
   width: 532px;
   height: 50%;

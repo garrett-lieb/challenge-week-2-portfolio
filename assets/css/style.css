@@ -163,16 +163,16 @@ textarea {
   display: flex;
   width: 50%;
   justify-content: space-between;
-  border: 5px double #0076b1;
+  border: 2px solid #0076b1;
   border-radius: 7px;
   background-color: #ffebcd;
   }
 
-  .text-entry {
+ .contact .text-entry {
   margin: auto;
-  width: 500px;
-  padding: 0px;
-  border: px double #0076b1;
+  width: 100%;
+  padding: 10px;
+  border: 2px inset #0076b1;
   border-radius: 7px;
   background-color: #ffebcd;
   }

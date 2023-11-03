@@ -199,6 +199,6 @@ textarea {
     Header,
     .Portfolio,
     .Bio,
-    .contact 
-      flex-direction: column;
+    .contact {
+     flex-direction: column; }
     }

@@ -5,8 +5,10 @@
 }
 
 :root {
-  --white: #f6f6f6;
+  --off-white: #f6f6f6;
+  --gray:#cdcdcd;
   --tan: #fffbf5;
+  --cream: #ffebcd;
   --blue: #0076b1;
   --blue2: #0070a8;
 }
@@ -20,64 +22,58 @@ a:hover {
   color: #f4a18a;
 }
 
-body {
-    background-image: linear-gradient(to bottom right, #0070a8, #d8d8d8);
-}
-
-header {
-  width: 100%;
-  padding: 40px;
-  margin: 2px, 5px, 0, 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #0076b1;
-  color: #cdcdcd;
-  border: 7px double #f6f6f6;
-  border-radius: 21px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-h2 { 
+h2,
+h4,
+h5
+{ 
   display: flex;
   flex: wrap;
   font-size: 150%;
-  text-align: left;
+  text-align: right;
   padding: 5px;
-  color: #f6f6f6;
-  background-color: #0070a8;
+  color: var(--off-white);
+  background-color: var(--blue2);
   border-radius: 10px;
 }
 
 h3 {
-  display: flex;
-  flex: wrap;
-  font-size: 150%;
-  text-align: right;
-  padding: 5px;
-  color: #f6f6f6;
-  background-color: #0070a8;
+  font-size: 70%;
+  background-color: var(--blue2);
   border-radius: 10px;
 }
 
-h4 {
-  display: flex;
-  flex: wrap;
+h5 {
+  flex: flex-start;
   font-size: 120%;
-  text-align: right;
-  background-color: #0070a8;
-  color: #f6f6f6;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-  
-  }
+  text-align: left;
+  background-color: var(--cream);
+  color: var(--blue2);
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #0070a8, #d8d8d8, #f6f6f6);
+  background-repeat: no-repeat center center cover;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  margin: 2px, 5px, 0, 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #0076b1;
+  color: var(--off-white);
+  border: 7px double var(--cream);
+  border-radius: 20px;
+}
 
 header nav {
   padding-top: 15px;
@@ -104,6 +100,7 @@ figure {
   margin: 5px, 5px, 7px, 5px;
   padding: 20px;
   float: right;
+  height: 18%;
   width: 54%;
   background-color: #ffebcd;
   border: 10px double #0070a8;
@@ -120,8 +117,8 @@ figure {
   height: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   color: rgb(0, 0, 0);
-  background-color: #ffebcd;
-  border: 7px double #0070a8;
+  background-color: var(--cream);
+  border: 7px double var(--blue2);
   border-radius: 5px;
   list-style: none;
   }
@@ -160,27 +157,26 @@ figure {
   height: 70%;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   color: rgb(0, 0, 0);
-  background-color: #ffebcd;
-  border: 10px double #0070a8;;
+  background-color: var(--cream);
+  border: 10px double var(--blue2);
   border-radius: 5px;
   }
 
 .Contact {
-  display: inline;
+  display: inline-flex;
   align-items: flex-end;
-  position:absolute;
+  position: static;
   right: 5px;
   bottom: -97.5px;
   height: 10%;
   width: 54%;
-  justify-content: flex-end;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  color: rgb(0, 0, 0);
-  font-size: large;
-  background-color: #ffebcd;
-  border: 10px double #0070a8;;
-  border-radius: 5px; 
-  }
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #0076b1;
+  color: var(--off-white);
+  border: 7px double var(--cream);
+  border-radius: 20px;
+}
 
   .Contact ul li {
     list-style-type: none;
@@ -189,8 +185,9 @@ figure {
   
   @media screen and (max-width: 700px) {
     Header,
-    .Portfolio,
     .Bio,
-    .contact {
-     flex-direction: column; }
+    .Portfolio,
+    .Contact {
+     flex-direction: column; 
     }
+  }

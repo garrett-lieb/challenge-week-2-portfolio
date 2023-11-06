@@ -4,6 +4,14 @@
     margin: 2px;
 }
 
+:root {
+  --white: #f6f6f6;
+  --tan: #fffbf5;
+  --blue: #0076b1;
+  --blue2: #0070a8;
+}
+
+
 a:link, a:visited {
   color: #f6f6f6;
 }
@@ -13,7 +21,7 @@ a:hover {
 }
 
 body {
-  background-color: #d8d8d8;
+    background-image: linear-gradient(to bottom right, #0070a8, #d8d8d8);
 }
 
 header {
@@ -169,7 +177,7 @@ textarea {
   position:absolute;
   right: 5px;
   bottom: 5px;
-  margin: 5px, 5px, 7px, 5px;
+  margin: 25px, 5px, 7px, 5px;
   height: 30%;
   width: 54%;
   justify-content: space-between;
@@ -181,7 +189,7 @@ textarea {
  .contact .text-entry {
   margin: auto;
   width: 100%;
-  padding: 22px;
+  padding: 0px;
   border: 2px inset #0076b1;
   border-radius: 7px;
   background-color: #ffebcd;

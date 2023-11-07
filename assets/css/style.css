@@ -81,7 +81,7 @@ header {
   width: 100%;
   padding: 40px;
   margin: 2px, 5px, 0, 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   text-decoration: none;
   color: var(--off-white);
   background-image: linear-gradient(to top right, var(--blue2), #d8d8d8, var(--blue));
@@ -93,7 +93,7 @@ header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -129,7 +129,7 @@ figure {
   float: left;
   width: 45%;
   height: 850px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 0);
   background-color: var(--cream);
   border: 10px double var(--blue2);
@@ -145,6 +145,7 @@ figure {
 .grid-item-1 {
   height: auto;
   width: 100%;
+  font-size: 120%;
   }
 
 .grid-container-2 {
@@ -174,7 +175,7 @@ figure {
   float: right;
   width: 54%;
   height: 70%;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 0);
   background-color: var(--cream);
   border: 10px double var(--blue2);

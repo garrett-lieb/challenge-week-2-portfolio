@@ -151,7 +151,7 @@ figure {
 
   /* ask for clarification on grid layout during office hours*/
 .grid-container-1 {
-  display: flex;
+  display: grid;
   }
   
 .grid-item-1 {

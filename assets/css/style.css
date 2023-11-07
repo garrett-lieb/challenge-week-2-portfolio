@@ -35,10 +35,7 @@ h1 {
   font-size: 48px;
 }
 
-h2,
-h4,
-h5
-{ 
+h2 {
   display: flex;
   flex: wrap;
   font-size: 150%;
@@ -51,6 +48,17 @@ h5
 
 h3 {
   font-size: 80%;
+  background-color: var(--blue2);
+  border-radius: 10px;
+}
+
+h4 { 
+  display: flex;
+  flex: wrap;
+  font-size: 150%;
+  text-align: left;
+  padding: 5px;
+  color: var(--off-white);
   background-color: var(--blue2);
   border-radius: 10px;
 }
@@ -109,7 +117,6 @@ figure {
   height: 18%;
   width: 54%;
   background-color: var(--cream);
-  opacity: .5;
   border: 10px double var(--blue2);
   border-radius: 20px; 
 } 
@@ -121,7 +128,7 @@ figure {
   clear: both;
   float: left;
   width: 45%;
-  height: 780px;
+  height: 850px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   color: rgb(0, 0, 0);
   background-color: var(--cream);
@@ -174,11 +181,19 @@ figure {
   border-radius: 20px;
   }
 
+.fig2 {
+  opacity: .5;
+}
+
+.fig3 {
+  opacity: .20;
+}
+
 .Contact {
   display: inline-flex;
   align-items: row;
   float: inline-end;
-  margin-top: 270px;
+  margin-top: 40px;
   right: 5px;
   height: 10%;
   width: 54%;

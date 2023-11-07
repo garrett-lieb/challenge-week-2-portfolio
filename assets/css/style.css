@@ -151,6 +151,11 @@ figure {
   align-items: left;
 }
 
+/* ask for clarification on secondary hovers during office hours*/
+.Portfolio, img:hover {
+  box-shadow: black;
+}
+
   /* ask for clarification on grid layout during office hours*/
 .grid-container-1 {
   display: grid;

@@ -41,19 +41,22 @@ h1 {
 }
 
 h2 {
-  flex: wrap;
+  
   font-size: 150%;
-  text-align: left;
-  padding: 5px;
+  text-align: center;
   color: var(--off-white);
   background-color: var(--blue2);
   border-radius: 10px;
+  padding: 5px;
+  margin-bottom: auto;
 }
 
 h3 {
   font-size: 80%;
   background-color: var(--blue2);
   border-radius: 10px;
+  padding: 5px;
+  margin-top: auto;
 }
 
 h4 { 
@@ -127,7 +130,7 @@ figure {
   
 .Portfolio {
   flex-direction: inline-flex;
-  flex-wrap: wrap;
+  align-items: column;
   display: grid;
   margin: 5px, 5px, 7px, 5px;
   padding: 10px;    
@@ -142,6 +145,9 @@ figure {
   border-radius: 20px;
   list-style: none;
   }
+.Portfolio, p {
+  align-items: left;
+}
 
   /* ask for clarification on grid layout during office hours*/
 .grid-container-1 {
@@ -188,6 +194,10 @@ figure {
   border-radius: 20px;
   }
 
+.Bio, p {
+  align-content: center;
+}
+
 .fig2 {
   opacity: .5;
 }
@@ -200,7 +210,7 @@ figure {
   display: inline-flex;
   align-items: row;
   float: inline-end;
-  margin-top: 40px;
+  margin: 15px, 5px, 5px;
   right: 5px;
   height: 10%;
   width: 50%;

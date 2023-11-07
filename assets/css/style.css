@@ -5,6 +5,7 @@
 }
 
 :root {
+  --white: #fff;
   --off-white: #f6f6f6;
   --gray:#cdcdcd;
   --tan: #fffbf5;
@@ -33,10 +34,13 @@ body {
 h1 {
   display: inline-block;
   font-size: 48px;
+  background-color: var(--blue);
+  padding: 5px;
+  border-radius: 10px;
+  
 }
 
 h2 {
-  display: flex;
   flex: wrap;
   font-size: 150%;
   text-align: left;
@@ -115,13 +119,15 @@ figure {
   padding: 20px;
   float: right;
   height: 18%;
-  width: 54%;
+  width: 50%;
   background-color: var(--cream);
   border: 10px double var(--blue2);
   border-radius: 20px; 
 } 
   
 .Portfolio {
+  flex-direction: inline-flex;
+  flex-wrap: wrap;
   display: grid;
   margin: 5px, 5px, 7px, 5px;
   padding: 10px;    
@@ -173,7 +179,7 @@ figure {
   margin: 5px, 5px, 7px, 5px;
   padding: 20px;
   float: right;
-  width: 54%;
+  width: 50%;
   height: 70%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 0);
@@ -197,7 +203,7 @@ figure {
   margin-top: 40px;
   right: 5px;
   height: 10%;
-  width: 54%;
+  width: 50%;
   justify-content: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #0076b1;
@@ -219,10 +225,12 @@ figure {
   
   @media screen and (max-width: 700px) {
     Header,
+    figure,
     .Bio,
     .Portfolio,
     .Contact 
     {
-     flex-direction: inline-flex; 
+     flex-direction: inline-flex;
+     flex-wrap: wrap;
     }
   }

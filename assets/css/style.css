@@ -29,6 +29,7 @@ a:hover {
 body {
   background-image: linear-gradient(to bottom right, var(--blue2), #d8d8d8, var(--blue), var(--cream));
   background-size: cover;
+  flex: auto;
 }
 
 h1 {
@@ -52,6 +53,8 @@ h2 {
 }
 
 h3 {
+  display: flex;
+  flex: wrap;
   font-size: 80%;
   background-color: var(--blue2);
   border-radius: 10px;
@@ -60,8 +63,7 @@ h3 {
 }
 
 h4 { 
-  display: flex;
-  flex: wrap;
+ 
   font-size: 150%;
   text-align: left;
   padding: 5px;
@@ -130,14 +132,14 @@ figure {
   
 .Portfolio {
   flex-direction: inline-flex;
-  align-items: column;
+  align-items: row;
   display: grid;
   margin: 5px, 5px, 7px, 5px;
   padding: 10px;    
   clear: both;
   float: left;
   width: 45%;
-  height: 850px;
+  height: 900px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 0);
   background-color: var(--cream);
@@ -157,18 +159,18 @@ figure {
 .grid-item-1 {
   flex: auto;
   height: auto;
-  width: 100%;
+  width: 80%;
   font-size: 120%;
   }
 
 .grid-container-2 {
   display: grid;
-  height: auto;
+  height: 45%;
   width: 100%;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50% 50%;
-  grid-gap: 2rem;
-  margin-top: 10px;
+  grid-template-rows: 48% 48%;
+  grid-gap: 5rem;
+  
   }
 
 .grid-item-2 {
@@ -180,6 +182,7 @@ figure {
 
 .grid-item-2 img {
   flex: auto;
+  padding: 10px, 0px, 10px, 0px;
 }
   
 .Bio {
@@ -246,6 +249,14 @@ figure {
      flex-direction: inline-flex;
      flex-wrap: wrap;
     }
+    .Portfolio{
+      height: 1600px;
+    }
+
+    .grid-container-2 {
+      display: flex;
+      flex-wrap: wrap;
+  }
   }
 
   @media screen and (max-width: 320px) {

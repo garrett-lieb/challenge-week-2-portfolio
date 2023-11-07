@@ -151,10 +151,11 @@ figure {
 
   /* ask for clarification on grid layout during office hours*/
 .grid-container-1 {
-  display: grid;
+  display: flex;
   }
   
 .grid-item-1 {
+  flex: auto;
   height: auto;
   width: 100%;
   font-size: 120%;
@@ -167,12 +168,14 @@ figure {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50% 50%;
   grid-gap: 2rem;
+  margin-top: 10px;
   }
 
 .grid-item-2 {
+  flex: auto;
   height: 150px;
   width: 50%;
-  margin-bottom: 5px;
+  margin: 10px, 5px, 10px, 5px;
   }
 
 .grid-item-2 img {
@@ -241,6 +244,18 @@ figure {
     .Contact 
     {
      flex-direction: inline-flex;
+     flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    Header,
+    figure,
+    .Bio,
+    .Portfolio,
+    .Contact 
+    {
+     flex-direction: column;
      flex-wrap: wrap;
     }
   }

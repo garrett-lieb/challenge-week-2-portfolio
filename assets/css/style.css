@@ -23,6 +23,7 @@ a:hover {
   color: #f59e85;
   background-color: var(--cream);
   border-radius: 10px;
+  box-shadow: #cdcdcd;
 }
 
 
@@ -42,7 +43,6 @@ h1 {
 }
 
 h2 {
-  
   font-size: 150%;
   text-align: center;
   color: var(--off-white);
@@ -55,10 +55,12 @@ h2 {
 h3 {
   display: flex;
   flex: wrap;
+  text-align: flex-start;
+  width: 100%;
   font-size: 80%;
   background-color: var(--blue2);
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
   margin-top: auto;
 }
 
@@ -132,14 +134,13 @@ figure {
   
 .Portfolio {
   flex-direction: inline-flex;
-  align-items: row;
-  display: grid;
-  margin: 5px, 5px, 7px, 5px;
+  align-items: column;
+  margin: 10px, 5px, 10px, 10px;
   padding: 10px;    
   clear: both;
   float: left;
-  width: 45%;
-  height: 900px;
+  width: 40%;
+  height: 1000px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 0);
   background-color: var(--cream);
@@ -147,6 +148,7 @@ figure {
   border-radius: 20px;
   list-style: none;
   }
+
 .Portfolio, p {
   align-items: left;
 }
@@ -170,12 +172,13 @@ figure {
 
 .grid-container-2 {
   display: grid;
+  flex: wrap;
   height: 45%;
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 48% 48%;
   grid-gap: 5rem;
-  
+  margin-top: 5px;
   }
 
 .grid-item-2 {
@@ -221,7 +224,7 @@ figure {
   display: inline-flex;
   align-items: row;
   float: inline-end;
-  margin: 15px, 5px, 5px;
+  margin: 15px, 5px, 5px, 5px;
   right: 5px;
   height: 10%;
   width: 50%;
@@ -244,7 +247,7 @@ figure {
     border-radius: 20px;
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     Header,
     figure,
     .Bio,
@@ -257,14 +260,55 @@ figure {
     .Portfolio{
       height: 1600px;
     }
-
     .grid-container-2 {
       display: flex;
       flex-wrap: wrap;
   }
   }
 
+  @media screen and (max-width: 450px) {
+    .Contact {
+      margin-right: 20px;
+      margin-top: -910px;
+      width: 80%;
+      font-size: smaller;
+    }
+
+    .fig1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .fig2,
+    .fig3 {
+      visibility: hidden;
+    }
+
+    #tree {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .Contact {
+      padding: 5%;
+      margin-left: 5px;
+      width: 50%;
+      font-size: 80%;
+      text-align: center;
+    }
+
+    .grid-item-2{
+      padding: 5px;
+      margin-top: 5px;
+    }
+  }
+
   @media screen and (max-width: 320px) {
+    a:hover {
+      color: #f59e85;
+    }
+    
     Header,
     figure,
     .Bio,
@@ -273,5 +317,34 @@ figure {
     {
      flex-direction: column;
      flex-wrap: wrap;
+     padding: 5%;
     }
+    
+    h2{
+      font-size: 100%;
+    }
+
+    h3{
+      background-color: var(--cream);
+      color: var(--blue);
+    }
+    
+    h5{
+      width: 20%;
+      background-color: var(--blue);
+      color: var(--cream);
+    }
+   
+    .Portfolio {
+      padding: 5px;
+    }
+
+    .Contact {
+      align-items: start;
+      margin-right: 55px;
+      margin-top: -760px;
+      width: 80%;
+      font-size: smaller;
+    }
+
   }

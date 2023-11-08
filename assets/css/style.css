@@ -134,13 +134,13 @@ figure {
   
 .Portfolio {
   flex-direction: inline-flex;
-  align-items: column;
+  align-items: center;
   margin: 10px, 5px, 10px, 10px;
   padding: 10px;    
   clear: both;
   float: left;
-  width: 40%;
-  height: 1000px;
+  width: 45%;
+  height: 900px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 0);
   background-color: var(--cream);
@@ -258,6 +258,10 @@ figure {
   .grid-container-2 {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  #grid-item-1 {
+    height: max-content;
   }
   }
 

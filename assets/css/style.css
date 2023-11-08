@@ -45,11 +45,11 @@ h1 {
 h2 {
   font-size: 150%;
   text-align: center;
+  width: 100%;
   color: var(--off-white);
   background-color: var(--blue2);
   border-radius: 10px;
   padding: 5px;
-  margin-bottom: auto;
 }
 
 h3 {
@@ -181,14 +181,16 @@ figure {
   margin-top: 5px;
   }
 
-.grid-item-2 {
+.grid-item-2,
+.grid-item-3 {
   flex: auto;
   height: 150px;
   width: 50%;
   margin: 10px, 5px, 10px, 5px;
   }
 
-.grid-item-2 img {
+.grid-item-2 img,
+.grid-item-3 img {
   flex: auto;
   padding: 10px, 0px, 10px, 0px;
 }
@@ -243,7 +245,8 @@ figure {
 
   #tree,
   #grid-item-1,
-  #grid-item-2 {
+  #grid-item-2, 
+  #grid-item-3 {
     border-radius: 20px;
   }
   
@@ -252,14 +255,15 @@ figure {
     figure,
     .Bio,
     .Portfolio,
-    .Contact 
-    {
+    .Contact {
      flex-direction: inline-flex;
      flex-wrap: wrap;
     }
+
     .Portfolio{
       height: 1600px;
     }
+
     .grid-container-2 {
       display: flex;
       flex-wrap: wrap;
@@ -267,11 +271,19 @@ figure {
   }
 
   @media screen and (max-width: 450px) {
+    h3{
+      background-color: var(--cream);
+      color: var(--blue);
+      margin-top: 5px;
+    }
+    
     .Contact {
-      margin-right: 20px;
-      margin-top: -910px;
-      width: 80%;
-      font-size: smaller;
+      padding: 5%;
+      margin-top: -1275px;
+      margin-right: 5px;
+      width: 50%;
+      font-size: 80%;
+      text-align: center;
     }
 
     .fig1 {
@@ -292,29 +304,34 @@ figure {
   @media screen and (max-width: 380px) {
     .Contact {
       padding: 5%;
-      margin-left: 5px;
+      margin-top: -1275px;
+      margin-right: 5px;
       width: 50%;
       font-size: 80%;
       text-align: center;
     }
 
-    .grid-item-2{
+    .Portfolio {
+      flex-wrap: wrap;
+      align-items: center;
       padding: 5px;
-      margin-top: 5px;
+      width: 120px;
     }
+
+   
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 325px) {
     a:hover {
       color: #f59e85;
     }
-    
+
     Header,
     figure,
     .Bio,
     .Portfolio,
-    .Contact 
-    {
+    .Contact,
+    .grid-container-2 {
      flex-direction: column;
      flex-wrap: wrap;
      padding: 5%;
@@ -334,17 +351,24 @@ figure {
       background-color: var(--blue);
       color: var(--cream);
     }
-   
-    .Portfolio {
-      padding: 5px;
-    }
 
     .Contact {
       align-items: start;
       margin-right: 55px;
-      margin-top: -760px;
+      margin-top: -1100px;
       width: 80%;
       font-size: smaller;
     }
+    #grid-item-1 {
+      width: 70px;
+      height: 70px;
+    }
 
+    #grid-item-2 {
+      width: 50px;
+      height: 50px;
+    }
+    #grid-item-3 {
+      visibility: hidden;
+    }
   }

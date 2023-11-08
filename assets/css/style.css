@@ -94,7 +94,7 @@ header {
   width: 100%;
   padding: 40px;
   margin: 2px, 5px, 0, 5px;
-  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: 'Alegre', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   text-decoration: none;
   color: var(--off-white);
   background-image: linear-gradient(to top right, var(--blue2), #d8d8d8, var(--blue));
@@ -106,7 +106,7 @@ header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poiret One', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -141,7 +141,7 @@ figure {
   
 .Portfolio {
   flex-direction: inline-flex;
-  align-items: center;
+  align-content: center;
   margin: 10px, 5px, 10px, 10px;
   padding: 10px;    
   clear: both;
@@ -156,24 +156,18 @@ figure {
   list-style: none;
   }
 
-.Portfolio, p {
-  align-items: left;
-}
-
 /* ask for clarification on secondary hovers during office hours*/
-.Portfolio, img:hover {
-  box-shadow: black;
-}
 
   /* ask for clarification on grid layout during office hours*/
 .grid-container-1 {
   display: grid;
+  flex: wrap;
   }
   
 .grid-item-1 {
   flex: auto;
   height: auto;
-  width: 80%;
+  width: 100%;
   font-size: 120%;
   }
 
@@ -192,7 +186,7 @@ figure {
 .grid-item-3 {
   flex: auto;
   height: 150px;
-  width: 50%;
+  width: 100%;
   margin: 10px, 5px, 10px, 5px;
   }
 
@@ -267,13 +261,19 @@ figure {
     height: 1600px;
   }
 
+   .grid-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .grid-container-2 {
     display: flex;
     flex-wrap: wrap;
   }
 
   #grid-item-1 {
-    height: max-content;
+    height: 200px;
+    width: 100%;
   }
   }
 

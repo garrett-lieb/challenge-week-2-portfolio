@@ -2,17 +2,18 @@
 
 ## Description
 
-This is the intial stage of a portfolio site developed from no existing body of code by a student in the edX Coding Bootcamp at the University of Oregon.
-The site contains functioning links to other completed, deployed pages that were created during class and as independant work to this point in the course program.
-The site was developed to help students utilize new and established skills in HTML and CSS and will be built upon as the course work continues to provide a foundation for
-exhibiting their work(s) for potential future employers and further education opportunities.  The site began with rudimentary visual effects on links and elements that will be built 
-upon as students gain knowledge about web devlopment.
+This is the intial stage of a portfolio site developed from no existing body of code by a student in the edX Coding Bootcamp at the University of Oregon. The site contains functioning links to other completed, deployed pages that were created during class and as independant work to this point in the course program. The site was developed to help students utilize new and established skills in HTML and CSS and will be built upon as the course work continues to provide a foundation for exhibiting their work(s) for potential future employers and further education opportunities.  The site began with rudimentary visual effects on links and elements that will be built upon as students gain knowledge about web devlopment.
+
+<img src="./assets/images/deployed-site.png" width="100%" height="100%">
 
 [ DEPLOYED PAGE: 
     https://garrett-lieb.github.io/challenge-week-2-portfolio/]
 
 [ Garrett Lieb GITHUB REPO: 
     https://github.com/garrett-lieb/challenge-week-2-portfolio]
+
+
+
 
 ## Installation
 

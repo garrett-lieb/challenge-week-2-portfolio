@@ -14,6 +14,10 @@
   --blue2: #0070a8;
 }
 
+::selection {
+  background-color: var(--blue2);
+  color: var(--off-white);
+}
 
 a:link, a:visited {
   color: #f6f6f6;
@@ -25,7 +29,6 @@ a:hover {
   border-radius: 10px;
   box-shadow: #cdcdcd;
 }
-
 
 body {
   background-image: linear-gradient(to bottom right, var(--blue2), #d8d8d8, var(--blue), var(--cream));

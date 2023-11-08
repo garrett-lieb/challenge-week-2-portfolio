@@ -27,7 +27,6 @@ a:hover {
   color: #f59e85;
   background-color: var(--cream);
   border-radius: 10px;
-  box-shadow: #cdcdcd;
 }
 
 body {
@@ -42,7 +41,7 @@ h1 {
   background-color: var(--blue);
   padding: 5px;
   border-radius: 10px;
-  
+  box-shadow: 0 10px 20px 0 var(--cream);
 }
 
 h2 {
@@ -119,6 +118,11 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
+}
+
+header a:hover {
+  box-shadow: 0 20px 10px 0 var(--blue2);
+  padding: 5px;
 }
 
 /* ASK DURING OFFICE HOURS*/
@@ -244,6 +248,11 @@ figure {
   .Contact ul li {
     list-style-type: none;
     display: inline-flex;
+  }
+
+  .Contact a:hover {
+    box-shadow: 0 5px 10px 0 var(--off-white);
+    padding: 5px;
   }
 
   #tree,

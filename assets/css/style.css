@@ -249,7 +249,18 @@ figure {
   #grid-item-3 {
     border-radius: 20px;
   }
-  
+
+  @media screen and (max-width: 1000px){
+  .Portfolio{
+    height: 1600px;
+  }
+
+  .grid-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  }
+
   @media screen and (max-width: 768px) {
     Header,
     figure,
@@ -259,15 +270,6 @@ figure {
      flex-direction: inline-flex;
      flex-wrap: wrap;
     }
-
-    .Portfolio{
-      height: 1600px;
-    }
-
-    .grid-container-2 {
-      display: flex;
-      flex-wrap: wrap;
-  }
   }
 
   @media screen and (max-width: 535px) {

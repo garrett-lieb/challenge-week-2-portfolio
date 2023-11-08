@@ -131,7 +131,6 @@ header a:hover {
   padding: 5px;
 }
 
-/* ASK DURING OFFICE HOURS*/
 figure {
   display: inline-flex;
   align-items: row;
@@ -161,8 +160,6 @@ figure {
   border-radius: 20px;
   list-style: none;
   }
-
-/* ask for clarification on secondary hovers during office hours*/
 
   /* ask for clarification on grid layout during office hours*/
 .grid-container-1 {

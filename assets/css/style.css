@@ -29,6 +29,12 @@ a:hover {
   border-radius: 10px;
 }
 
+.Portfolio:hover,
+.Bio:hover,
+.Contact:hover {
+    box-shadow: inset 0px 0px 8px var(--blue), 0 0 20px var(--blue2);
+  }
+
 body {
   background-image: linear-gradient(to bottom right, var(--blue2), #d8d8d8, var(--blue), var(--cream));
   background-size: cover;

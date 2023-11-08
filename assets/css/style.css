@@ -270,22 +270,7 @@ figure {
   }
   }
 
-  @media screen and (max-width: 450px) {
-    h3{
-      background-color: var(--cream);
-      color: var(--blue);
-      margin-top: 5px;
-    }
-    
-    .Contact {
-      padding: 5%;
-      margin-top: -1275px;
-      margin-right: 5px;
-      width: 50%;
-      font-size: 80%;
-      text-align: center;
-    }
-
+  @media screen and (max-width: 535px) {
     .fig1 {
       display: flex;
       flex-direction: column;
@@ -301,7 +286,40 @@ figure {
     }
   }
 
+  @media screen and (max-width: 450px) {
+    h3{
+      background-color: var(--cream);
+      color: var(--blue);
+      margin-top: 5px;
+    }
+    
+    .Contact {
+      padding: 5%;
+      margin-top: -1275px;
+      margin-right: 5px;
+      width: 50%;
+      font-size: 80%;
+      text-align: center;
+    }
+  }
+
   @media screen and (max-width: 380px) {
+
+    h2{
+      font-size: 100%;
+    }
+
+    h3{
+      background-color: var(--cream);
+      color: var(--blue);
+    }
+    
+    h5{
+      width: 20%;
+      background-color: var(--blue);
+      color: var(--cream);
+    }
+
     .Contact {
       padding: 5%;
       margin-top: -1275px;
@@ -335,21 +353,6 @@ figure {
      flex-direction: column;
      flex-wrap: wrap;
      padding: 5%;
-    }
-    
-    h2{
-      font-size: 100%;
-    }
-
-    h3{
-      background-color: var(--cream);
-      color: var(--blue);
-    }
-    
-    h5{
-      width: 20%;
-      background-color: var(--blue);
-      color: var(--cream);
     }
 
     .Contact {
